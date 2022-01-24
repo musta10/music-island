@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.min.css">
+    <title>music island</title>
+</head>
+<body>
+
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                          <h1 class="h4">Sube tu canción</h1>
+                          <form id="form">
+                            <label for="url">URL</label>
+                            <input class="form-control mb-3" type="text" placeholder="https://youtu.be/YaXPeEVUfmg" id="url">
+                    
+                            <label for="title">Tu nombre</label>
+                            <input class="form-control mb-3"  type="text" id="name" placeholder="Tu nombre" >
+                    
+                            <label for="description">Pon un titulo</label>
+                            <textarea class="form-control mb-3"   id="description" rows="3" placeholder="Pon un titulo"></textarea>
+                    
+                            <button class="btn btn-primary" id="btn-save">Publicar</button>
+                        </form>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">  </div>
+            <div  class="container p-4" class="col-md-6" id="tasks-container"></div>
+        </div>
+    </div>
+    
+    
+    
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
