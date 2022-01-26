@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", async () => {
             <div class="card card-body mt-4">
             <h3>${task.description}</h3>
             <p>${task.name} ha compartido una canción</p>
-            <a class="mb-3" href=${task.url}>Ver publicación</a>
+            <a style="text-decoration: none;" class="mb-3" href=${task.url}><i class=" large material-icons">audiotrack</i>Ver publicacion</a>
             <button class='btn-delete btn btn-primary mt-3' data-id="${doc.id}">Eliminar</button>
             </div>`;
     });
