@@ -23,7 +23,7 @@ window.addEventListener("DOMContentLoaded", async () => {
             <p>${task.name} ha compartido una canción</p>
             <a style="text-decoration: none;" class="mb-3" href=${task.url}><i class=" large material-icons">audiotrack</i>Ver publicacion</a>
             <button class='btn-delete btn btn-primary mt-3' data-id="${doc.id}">Eliminar</button>
-            </div>`;
+            </div>`
     });
 
     tasksContainer.innerHTML = html;
